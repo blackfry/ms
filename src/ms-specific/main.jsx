@@ -15,15 +15,13 @@ export class Main extends Component {
     }
 
     render() {
-        let poops = this.props;
-        console.log('main props', {poops})
-
         let subtopics = this.props.subtopics;
         let selectedSubtopic = this.props.selectedSubtopic;
 
         return (
             <div style={{
                 paddingLeft: '20px',
+                marginTop: '20px',
                 backgroundColor: '#BA77FF',
                 width: '600px',
                 height: '200px'
